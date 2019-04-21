@@ -5,5 +5,5 @@ app.get('/', (req, res) => {
     res.send('A test!');
 });
 
-app.listen(3000, () => console.log('Gator app listening on port 3000!'));
+app.listen(80, () => console.log('Gator app listening on port 3000!'));
 
